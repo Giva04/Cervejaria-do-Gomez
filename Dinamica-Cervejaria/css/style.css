@@ -22,10 +22,11 @@ h1{
 }
 #confirmar{
     position: absolute;
-    width: 85%;
-    height: 38%;
-    left: 10%;
+    width: 1249px;
+    height: 246px;
+    align-items: center;
     top: 51%;
+    left: 30px;
 
     background: #CA7900;
     border-radius: 40px;
@@ -57,7 +58,7 @@ h2{
     width: 15%;
     height: 31%;
     left: 26%;
-    top: 35%;
+    top: 55%;
     font-family:'Raleway';
     font-style:normal;
     color: #f5f5f5;
@@ -77,7 +78,7 @@ h2{
     width: 15%;
     height: 31%;
     left: 52%;
-    top: 35%;
+    top: 55%;
     font-family:'Raleway';
     font-style:normal;
     color: #f5f5f5;
@@ -92,3 +93,151 @@ h2{
     border-color: #F5F5F5;    
     cursor: pointer;
 }
+
+.maior18{
+
+    visibility: hidden;
+    
+     .navegacao{
+        display: flex;
+        align-items: center;                      
+        justify-content: space-between;    
+        font-size: 36px;
+        max-width: 105%;
+        margin-top: -8px;
+        height: 117px;
+        background-color: #CA7900;
+        padding: 0 1px 1px ;
+        
+    
+    }
+    #nave {
+        width: 60%;
+    }
+    #navi  {
+        width: 20%;
+    }
+    .cada {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    .meio {
+        background-color: #CA7900;
+        height: 216px;
+        width: 1249px;
+        border-radius: 40px;
+        text-align: center;
+        margin-top: 140px;
+        
+    }
+    #maoir18 {    
+        font-size: 36px;  
+        margin-top: 60px;
+    }
+    .imag {   
+        text-align: center; 
+        margin-top: -300px;
+        margin-bottom: 200px;
+    
+    }
+    
+    
+    #nave,
+    #navi, a {
+        color: white;
+        text-decoration: none;
+        font-size: 26px;
+        margin-left: 5%;
+    }
+      
+    .maoir18 button {
+       border-radius: 10px;
+        width: 370px;
+        height: 66px;
+        background-color: #CA7900;
+        font-size: 32px;
+        color: white;
+        margin-top: 50px;
+        border: 7px solid white;
+    }
+    #entrar {
+        width: 370px;
+        height: 66px;
+        margin-top: 70px;
+        margin-left: 35%;
+        
+        font-size: 32px;
+        color: white;
+        text-align: center;
+        background-color: #CA7900;
+        border-radius: 10px;
+        border: 7px solid white;
+        
+    }
+}
+
+.menor18{
+
+    visibility: hidden;
+
+    .navegacao {
+        display: flex;
+        align-items: center;                      
+        justify-content: space-around;    
+        font-size: 36px;
+        width: 1311px;
+        height: 117px;
+        background-color: #CA7900;
+        padding: 0 15px 5px ;
+        
+    }
+    #nave {
+        width: 60%;
+    }
+    #navi {
+        width: 20%;
+    }
+    .cada {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    
+    }
+    .meio {
+        background-color: #CA7900;
+        height: 216px;
+        width: 1249px;
+        border-radius: 40px;
+        text-align: center;
+        margin-top: 140px;
+    
+    }
+      #menor18 {   
+        font-size: 36px; 
+        margin-top: 80px; 
+    
+    
+    }
+    .imag {   
+        text-align: center; 
+        margin-top: -300px;
+        margin-bottom: 200px;
+    
+    }
+    
+    
+    #nave,
+    #navi, a {
+        color: white;
+        text-decoration: none;
+        font-size: 26px;
+        margin-left: 5%;
+    }
+    
+    
+}
+

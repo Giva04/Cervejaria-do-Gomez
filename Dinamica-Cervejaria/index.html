@@ -1,33 +1,88 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cervejaria do Gomez</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <lInk rel="stylesheet" href="./css/menor18.css">
-    <link rel="stylesheet" href="./css/maoir18.css">
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/menor18.css" />
+    <link rel="stylesheet" href="./css/maoir18.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <section class="card">
-        
-    <h1> Bem-vindo á<br> Cervejaria do Gomez</h1>
-    </section> 
+      <h1>
+        Bem-vindo á<br />
+        Cervejaria do Gomez
+      </h1>
+    </section>
 
     <div id="confirmar">
-        <img src="../Dinamica-Cervejaria/imagens/copos.png" alt="50">
-    <h2>Você é maior de 18 anos ?</h2>
+      <img src="../Dinamica-Cervejaria/imagens/copos.png" alt="50" />
+      <h2>Você é maior de 18 anos ?</h2>
 
-    <div>
-      <button id="sim">Sim</button>
       <div>
-        <button id="nao">Não</button>
+        <button id="sim">Sim</button>
+        <div>
+          <button id="nao">Não</button>
+        </div>
       </div>
     </div>
-    </div>
-   
-</body>
+
+     <modal class="maior18">
+      <nav class="navegacao">
+        <nav id="nave">
+          <a href=""><b> A Cervejaria </b> </a>
+          <a href=""><b> Nossas Cervejas</b></a>
+          <a href=""><b> Delivery</b></a>
+        </nav>
+        <nav id="navi">
+          <a href=""><b> Meu Carrinho</b></a>
+          <img src="./imagens/carrinho.png" alt="" />
+        </nav>
+      </nav>
+
+      <div class="cada">
+        <div class="meio">
+          <p id="maoir18">
+            Olá! Gostaria de te dar boas vindas a Cervejaria do Gomez. <br />
+            Aqui você encontrará as melhores bebidas do Brasil!
+          </p>
+        </div>
+      </div>
+      <div class="imag">
+        <img src="./imagens/copos.png" alt="imagem" />
+      </div>
+      <div id="entrarSite">
+        <button id="entrar" type="submit">Entrar no site</button>
+      </div>
+    </modal>
+
+    <modal class="menor18">
+      <nav class="navegacao">
+        <nav id="nave">
+          <a href=""><b> A Cervejaria </b></a>
+          <a href=""><b> Nossas Cervejas</b></a>
+          <a href=""><b> Delivery</b></a>
+        </nav>
+        <nav id="navi">
+          <a href=""><b> Meu Carrinho</b></a>
+          <img src="./imagens/carrinho.png" alt="" />
+        </nav>
+      </nav>
+      <div class="cada">
+        <div class="meio">
+          <p id="menor18">
+            Sinto muito, mas esse site só é permitido para maiores de 18 anos :(
+          </p>
+        </div>
+      </div>
+      <div class="imag">
+        <img src="./imagens/copos.png" alt="imagem" />
+      </div>
+    </modal>
+
+    <script src="./js/index.js"></script>
+  </body>
 </html>
